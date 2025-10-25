@@ -43,23 +43,5 @@ After the first run, `BepInEx/config/nexor.darkplace.roomoverlay.cfg` is generat
 - `ToggleKey`：切换叠加层显示的快捷键（默认 `F8`）。  
   **ToggleKey**: Hotkey that toggles the overlay (default `F8`).
 
----
 
-## 使用小贴士 / Tips
-
-- 如果想暂时清屏，可以按下配置好的快捷键隐藏叠加层。  
-  Press the toggle key whenever you want the overlay out of the way.
-- 提示框完全依赖游戏原版 UI 的按钮，因此任何自定义界面或脚本化事件都会实时反映。  
-  Tooltips follow the original UI buttons, so scripted redirects show up immediately.
-- 想要中文/英文以外的翻译、或加入地图视图，可以在 `MyModScript.cs` 基础上继续扩展。  
-  Extend `MyModScript.cs` if you need additional translations or even a minimap.
-
----
-
-## 鸣谢 / Credits
-
-- 基于 BepInEx 与 Harmony。  
-  Powered by BepInEx and Harmony.
-- 感谢社区提供的房间数据分析思路。  
-  Thanks to the community for inspiring the room graph investigation.
 
